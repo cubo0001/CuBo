@@ -1,4 +1,4 @@
-__author__ = 'mk'
+uthor__ = 'mk'
 
 
 def calculate(x,y,operator):
@@ -10,6 +10,10 @@ def calculate(x,y,operator):
     :param operator: i define that it's a integer from 1 to 4: 1 is add, 2 is minus, 3 is multi and 4 is divide
     :return: result when after calculating x y with sign
     """
+    #Multi
+    if operator ==3:
+      return x*y
+
     return 0
 
 
@@ -18,7 +22,7 @@ def main_function():
     free edit this function as main method, but you have to commit change of this function to github
     :return:
     """
-    print calculate(1,2,3)
+    print (calculate(4,3,3))
 
 
 
