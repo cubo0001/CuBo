@@ -11,12 +11,13 @@ def calculate(x, y, operator):
     :return: result when after calculating x y with sign
     """
 
-    # tung
+    # add
     if operator == 1:
         return x + y
+    # tung
 
     return 0
-    # tung
+
 
 
 def main_function():
