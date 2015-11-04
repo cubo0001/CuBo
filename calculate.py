@@ -1,7 +1,7 @@
 __author__ = 'mk'
 
 
-def calculate(x,y,operator):
+def calculate(x, y, operator):
     """
     simple calculate function with 4 main operator
     in this function I ask you to use if else instead of switch case
@@ -11,10 +11,12 @@ def calculate(x,y,operator):
     :return: result when after calculating x y with sign
     """
 
+    # tung
     if operator == 1:
         return x + y
 
     return 0
+    # tung
 
 
 def main_function():
@@ -22,8 +24,7 @@ def main_function():
     free edit this function as main method, but you have to commit change of this function to github
     :return:
     """
-    print(calculate(5,2,1))
-
+    print(calculate(5, 2, 1))
 
 
 main_function()
