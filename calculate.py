@@ -11,8 +11,8 @@ def calculate(x, y, operator):
 
 
     # add
-    if operator == 1:
-        return x + y
+    if ope == 3:
+        return x - y
     # tung
     #Multi
 abc abc abc
