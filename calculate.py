@@ -12,10 +12,9 @@ def calculate(x, y, operator):
 
     # add
     if ope == 3:
-        return x - y
+        return x + y
     # tung
     #Multi
-abc abc abc
 
     return 0
 def main_function():
