@@ -15,8 +15,6 @@ def calculate(x, y, operator):
         return x + y
     # tung
     #Multi
-    if operator ==3:
-      return x*y
 
 
     return 0
